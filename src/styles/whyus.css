@@ -1,0 +1,44 @@
+.whyus {
+  margin-top: 3rem;
+  padding: 1.5rem 0rem;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3rem;
+}
+.card {
+  width: 454px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0eeee;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1.5rem;
+  box-shadow: 10px 6px 12px 0px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 10px 6px 12px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 10px 6px 12px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-text {
+  padding: 1rem;
+}
+.card-text h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.card-text p {
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+}
+.center {
+  text-align: center;
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+  font-weight: 500;
+}

@@ -1,0 +1,56 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+  text-align: center;
+}
+.hero-left {
+  order: 2;
+}
+
+.hero-right {
+  order: 1;
+}
+.hero-left h1 {
+  padding: 2rem 0;
+  font-size: clamp(2rem, 4vw, 4rem);
+  letter-spacing: 0.5ch;
+  font-weight: 500;
+}
+.hero-left p {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  padding-bottom: 1.5rem;
+  font-weight: 300;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  font-size: clamp(1rem, 4vw, 2rem);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+}
+
+@media only screen and (min-width: 900px) {
+  .hero-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    text-align: left;
+    padding: 1.5rem 4rem;
+  }
+  .hero-left p {
+    padding-bottom: 2.5rem;
+  }
+  .hero-left {
+    order: 1;
+  }
+
+  .hero-right {
+    order: 2;
+  }
+  .btn-primary {
+    padding: 16px 32px;
+  }
+}

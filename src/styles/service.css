@@ -1,0 +1,107 @@
+.home-service {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+.grid {
+  margin: 3rem 1rem 2rem 1rem;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 363px 263px;
+  grid-auto-flow: dense;
+  grid-auto-rows: 100px;
+  background-color: #fff;
+}
+.box {
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.box h2 {
+  padding-bottom: 1rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+}
+.box a {
+  font-size: clamp(0.8rem, 2.5vw, 1.6rem);
+  color: #fff;
+  text-decoration: none;
+  font-family: 300;
+  display: flex;
+  align-items: center;
+}
+.box .arrow {
+  width: 14px;
+  height: 14px;
+  margin-left: 0.3rem;
+  cursor: pointer;
+}
+.box a:hover {
+  border-bottom: 1px solid #fff;
+}
+.a {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  background: url(../images/HomRenovation.jpg) no-repeat center bottom / cover;
+  position: relative;
+  z-index: 2;
+}
+.c {
+  grid-column: 1;
+  grid-row: 2 / 4;
+  background: url(../images/HouseBuilding.jpg) no-repeat no-repeat center center /
+    cover;
+  position: relative;
+  z-index: 2;
+}
+.d {
+  grid-column: 2;
+  grid-row: 2 / 4;
+  background: url(../images/HomeCleaing.jpg) no-repeat no-repeat center center /
+    cover;
+  position: relative;
+  z-index: 2;
+}
+.a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.c::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.d::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+@media only screen and (min-width: 900px) {
+  .grid {
+    grid-template-rows: 463px 463px;
+  }
+  .box .arrow {
+    width: 21px;
+    height: 21px;
+    margin-left: 0.7rem;
+  }
+}
