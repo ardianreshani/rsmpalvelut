@@ -1,6 +1,29 @@
-import React from "react";
+import React, { useRef } from "react";
 import Footer from "../components/Footer";
+import emailjs from "@emailjs/browser";
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_l0pia7d",
+        "template_0uj3ers",
+        form.current,
+        "user_lLqFzc9qYfVqRfGD9VO1l"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
+  console.log(form.current);
   return (
     <div className="contact-container">
       <div className="center">
@@ -155,17 +178,19 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-right">
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <label htmlFor="name">Name</label>
             <input
               type="text"
               id="name"
+              name="name"
               placeholder="Type you'r name"
               required
             />
             <label htmlFor="email">Email</label>
             <input
               type="email"
+              name="email"
               id="email"
               placeholder="Type you'r email"
               required
@@ -173,6 +198,7 @@ const Contact = () => {
             <label htmlFor="message">Message</label>
             <textarea
               id="message"
+              name="message"
               rows="4"
               cols="50"
               placeholder="Type you'r email"

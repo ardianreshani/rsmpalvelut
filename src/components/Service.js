@@ -8,7 +8,7 @@ const Service = () => {
         <h2>Service</h2>
       </div>
       <div className="grid">
-        <div class="box a">
+        <div className="box a">
           <h2>House Renovation</h2>
           <Link to="/services">
             See more photos{" "}
@@ -27,7 +27,7 @@ const Service = () => {
                     transform="translate(1027.5 2696.5)"
                     fill="none"
                     stroke="#fff"
-                    strokelinecap="round"
+                    strokeLinecap="round"
                     strokeWidth="2"
                   />
                   <line
@@ -57,7 +57,7 @@ const Service = () => {
             </span>
           </Link>
         </div>
-        <div class="box c">
+        <div className="box c">
           <h2> Outside House</h2>
           <Link to="/services">
             See more photos{" "}
@@ -106,7 +106,7 @@ const Service = () => {
             </span>
           </Link>
         </div>
-        <div class="box d">
+        <div className="box d">
           <h2>House Cleaning </h2>
           <Link to="/services">
             See more photos{" "}
@@ -147,8 +147,8 @@ const Service = () => {
                     transform="translate(1050.5 2696.5)"
                     fill="none"
                     stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   />
                 </g>
               </svg>
