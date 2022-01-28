@@ -3,19 +3,8 @@ import { images } from "../data/Image";
 import { SRLWrapper } from "simple-react-lightbox";
 
 const options = {
-  settings: {
-    overlayColor: "rgba(0, 0, 0,.9)",
-    autoplaySpeed: 1500,
-    transitionSpeed: 900,
-  },
-
   caption: {
     showCaption: false,
-  },
-  progressBar: {
-    height: "20px",
-    fillColor: "blue",
-    backgroundColor: "white",
   },
 };
 const Services = () => {

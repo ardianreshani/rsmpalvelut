@@ -39,10 +39,16 @@ footer {
 .footer-contact-items svg {
   margin-right: 1rem;
 }
-.footer-contact-items p {
+.footer-contact-items {
   display: flex;
   align-items: center;
 }
+.footer-contact-items a {
+  display: block;
+  padding-right: 1rem;
+  color: #fff;
+}
+
 @media only screen and (min-width: 900px) {
   .footer-container {
     flex-direction: row;

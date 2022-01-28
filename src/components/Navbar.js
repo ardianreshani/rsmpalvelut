@@ -1,10 +1,12 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import logo from "../images/logowithout the text.png";
+import useWindowDimensions from "./widthHook";
 const Navbar = ({ open, setOpen }) => {
+  const { width } = useWindowDimensions();
   let className = "menu";
   let hamburger = "hamburger";
-  if (open) {
+  if (open && width < 900) {
     className = "menu on";
     hamburger = "hamburger on";
   }

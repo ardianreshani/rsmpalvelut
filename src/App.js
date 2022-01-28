@@ -5,13 +5,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
-
+import ScrollToTop from "./components/ScroolToTop";
 function App() {
   const [open, setOpen] = useState(false);
   return (
     <div className="App">
       <BrowserRouter>
         <Navbar open={open} setOpen={setOpen} />
+        <ScrollToTop />
         <AppRoute />
       </BrowserRouter>
     </div>
