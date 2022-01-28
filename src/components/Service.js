@@ -27,8 +27,8 @@ const Service = () => {
                     transform="translate(1027.5 2696.5)"
                     fill="none"
                     stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokelinecap="round"
+                    strokeWidth="2"
                   />
                   <line
                     id="Line_2"
@@ -38,8 +38,8 @@ const Service = () => {
                     transform="translate(1050.5 2683.5)"
                     fill="none"
                     stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   />
                   <line
                     id="Line_3"
@@ -49,8 +49,8 @@ const Service = () => {
                     transform="translate(1050.5 2696.5)"
                     fill="none"
                     stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   />
                 </g>
               </svg>
@@ -76,8 +76,8 @@ const Service = () => {
                     transform="translate(1027.5 2696.5)"
                     fill="none"
                     stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   />
                   <line
                     id="Line_2"
@@ -87,8 +87,8 @@ const Service = () => {
                     transform="translate(1050.5 2683.5)"
                     fill="none"
                     stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   />
                   <line
                     id="Line_3"
@@ -98,8 +98,8 @@ const Service = () => {
                     transform="translate(1050.5 2696.5)"
                     fill="none"
                     stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   />
                 </g>
               </svg>
@@ -125,8 +125,8 @@ const Service = () => {
                     transform="translate(1027.5 2696.5)"
                     fill="none"
                     stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   />
                   <line
                     id="Line_2"
@@ -136,8 +136,8 @@ const Service = () => {
                     transform="translate(1050.5 2683.5)"
                     fill="none"
                     stroke="#fff"
-                    stroke-linecap="round"
-                    stroke-width="2"
+                    strokeLinecap="round"
+                    strokeWidth="2"
                   />
                   <line
                     id="Line_3"

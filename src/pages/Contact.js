@@ -27,9 +27,9 @@ const Contact = () => {
                       transform="translate(-1.667 0.156)"
                       fill="none"
                       stroke="#fff"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="3"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="3"
                     />
                   </svg>
                 </span>
@@ -58,9 +58,9 @@ const Contact = () => {
                         d="M6,6H30a3.009,3.009,0,0,1,3,3V27a3.009,3.009,0,0,1-3,3H6a3.009,3.009,0,0,1-3-3V9A3.009,3.009,0,0,1,6,6Z"
                         fill="none"
                         stroke="#fff"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="3"
                       />
                       <path
                         id="Path_41"
@@ -68,9 +68,9 @@ const Contact = () => {
                         d="M33,9,18,19.5,3,9"
                         fill="none"
                         stroke="#fff"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="3"
                       />
                     </g>
                   </svg>
@@ -100,9 +100,9 @@ const Contact = () => {
                         d="M31.5,15C31.5,25.5,18,34.5,18,34.5S4.5,25.5,4.5,15a13.5,13.5,0,1,1,27,0Z"
                         fill="none"
                         stroke="#fff"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="3"
                       />
                       <path
                         id="Path_39"
@@ -110,9 +110,9 @@ const Contact = () => {
                         d="M22.5,15A4.5,4.5,0,1,1,18,10.5,4.5,4.5,0,0,1,22.5,15Z"
                         fill="none"
                         stroke="#fff"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="3"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="3"
                       />
                     </g>
                   </svg>
