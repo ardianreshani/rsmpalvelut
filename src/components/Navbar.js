@@ -26,22 +26,22 @@ const Navbar = ({ open, setOpen }) => {
       <ul className={className}>
         <li>
           <NavLink to="/" onClick={() => setOpen(!open)}>
-            Home
+            Etusivu
           </NavLink>
         </li>
         <li>
           <NavLink to="/about" onClick={() => setOpen(!open)}>
-            About
+            Meistä
           </NavLink>
         </li>
         <li>
           <NavLink to="/services" onClick={() => setOpen(!open)}>
-            Services
+            Referenssit
           </NavLink>
         </li>
         <li>
           <NavLink to="/contact" onClick={() => setOpen(!open)}>
-            Contact
+            Yhteystiedot
           </NavLink>
         </li>
       </ul>

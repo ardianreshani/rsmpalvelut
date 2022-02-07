@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logoWhite from "../images/LOGOinWhite.png";
-import trusLogo from "../images/trust.jpg";
+import trusLogo from "../images/trust.png";
 const Footer = () => {
   return (
     <footer>
@@ -13,16 +13,16 @@ const Footer = () => {
         <div className="footer-menu">
           <ul>
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink to="/">ETUSIVU</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About</NavLink>
+              <NavLink to="/about">MEISTÄ</NavLink>
             </li>
             <li>
-              <NavLink to="/services">Services</NavLink>
+              <NavLink to="/services">REFERENSSIT</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/contact">YHTEYSTIEDOT</NavLink>
             </li>
           </ul>
         </div>

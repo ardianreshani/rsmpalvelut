@@ -26,8 +26,8 @@ const Contact = () => {
   return (
     <div className="contact-container">
       <div className="center">
-        <h1>Contact Us</h1>
-        <p>Write us a message and we will get in touch with you</p>
+        <h1>Ota meihin yhteyttä</h1>
+        <p>Kirjoita meille viesti, niin otamme sinuun yhteyttä</p>
       </div>
       <div className="wraper">
         <div className="contact-left">
@@ -185,40 +185,40 @@ const Contact = () => {
         </div>
         <div className="contact-right">
           <form ref={form} onSubmit={sendEmail}>
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Nimi</label>
             <input
               type="text"
               id="name"
               name="name"
-              placeholder="Type you'r name"
+              placeholder="Kirjoita nimesi ..."
               required
             />
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Sähköposti</label>
             <input
               type="email"
               name="email"
               id="email"
-              placeholder="Type you'r email"
+              placeholder="Kirjoita sähköpostiosoitteesi ..."
               required
             />
-            <label htmlFor="number">Phone</label>
+            <label htmlFor="number">Puhelin</label>
             <input
               type="number"
               name="number"
               id="number"
-              placeholder="Type you'r number"
+              placeholder="Kirjoita numerosi ..."
               required
             />
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Viesti</label>
             <textarea
               id="message"
               name="message"
               rows="4"
               cols="50"
-              placeholder="Type you'r email"
+              placeholder="Kirjoita sähköpostiosoitteesi"
               required
             ></textarea>
-            <button type="submit">Submit</button>
+            <button type="submit">Lähettä</button>
           </form>
         </div>
       </div>
