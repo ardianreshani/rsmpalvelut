@@ -5,13 +5,13 @@ const Service = () => {
   return (
     <div className="home-service">
       <div className="center">
-        <h2>Service</h2>
+        <h2>Palvelu</h2>
       </div>
       <div className="grid">
         <div className="box a">
-          <h2>House Renovation</h2>
+          <h2>Maalaus ulko ja sisä</h2>
           <Link to="/services">
-            See more photos{" "}
+            Katso lisää kuvia{" "}
             <span className="arrow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -58,9 +58,9 @@ const Service = () => {
           </Link>
         </div>
         <div className="box c">
-          <h2> Outside House</h2>
+          <h2> Katonpesu ja maalaus</h2>
           <Link to="/services">
-            See more photos{" "}
+            Katso lisää kuvia{" "}
             <span className="arrow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -107,9 +107,9 @@ const Service = () => {
           </Link>
         </div>
         <div className="box d">
-          <h2>House Cleaning </h2>
+          <h2>Siivouspalvelut</h2>
           <Link to="/services">
-            See more photos{" "}
+            Katso lisää kuvia{" "}
             <span className="arrow">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

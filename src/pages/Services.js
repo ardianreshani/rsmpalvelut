@@ -22,19 +22,19 @@ const Services = () => {
           className={`${tag === "all" ? "btn-active" : ""}`}
           onClick={() => setTag("all")}
         >
-          All Work
+          Kaikki
         </button>
         <button
           className={`${tag === "brenda" ? "btn-active" : ""}`}
           onClick={() => setTag("brenda")}
         >
-          Haouse Renovation
+          Työn sisällä
         </button>
         <button
           className={`${tag === "jasht" ? "btn-active" : ""}`}
           onClick={() => setTag("jasht")}
         >
-          Outside House
+          Työn ulkopuolella
         </button>
       </div>
 

@@ -41,4 +41,14 @@
   text-align: center;
   font-size: clamp(1.5rem, 2vw, 2.5rem);
   font-weight: 500;
+  position: relative;
+}
+.center::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 30%;
+  height: 50%;
+  border-bottom: 3px solid var(--primary-color);
 }

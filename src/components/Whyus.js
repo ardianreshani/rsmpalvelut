@@ -7,7 +7,7 @@ const Whyus = () => {
   return (
     <div className="whyus">
       <div className="center">
-        <h2>Why Choose Us</h2>
+        <h2>Miksi valita meidät</h2>
       </div>
       <div className="cards">
         <div className="card">
@@ -15,10 +15,11 @@ const Whyus = () => {
             <img src={Quality} alt="Quality" />
           </div>
           <div className="card-text">
-            <h4>Quality</h4>
+            <h4>Laatu</h4>
             <p>
-              When carrying out the work,we use high-quality materials of proven
-              origin. All building materials are of Finland origin.
+              Käytämme työssämme korkealaatuisia ja todistetusti alkuperää
+              olevia materiaaleja. Kaikki rakennusmateriaalit ovat suomalaista
+              alkuperää.
             </p>
           </div>
         </div>
@@ -27,10 +28,10 @@ const Whyus = () => {
             <img src={handshake} alt="handshake" />
           </div>
           <div className="card-text">
-            <h4>Integrity</h4>
+            <h4>Rehellisyys</h4>
             <p>
-              We offer various types of services that make it easier for you to
-              take care of renovation, conversion, cleaning,
+              Tarjoamme erilaisia palveluita, jotka helpottavat sinua pitää
+              huolta Maalaus ulko ja sisä, Katonpesu ja maalaus, Siivouspalvelut
             </p>
           </div>
         </div>
@@ -39,10 +40,10 @@ const Whyus = () => {
             <img src={shield} alt="shield" />
           </div>
           <div className="card-text">
-            <h4>Reliability</h4>
+            <h4>Luotettavuus</h4>
             <p>
-              The implementation of the project is carefully monitored by the
-              trusting hands and the meticulous eyes of the entrepreneur.
+              Hankkeen toteutumista valvovat tarkoin luottavat kädet ja
+              yrittäjän huolellinen silmä.
             </p>
           </div>
         </div>
@@ -51,11 +52,11 @@ const Whyus = () => {
             <img src={labourDay} alt="labourDay" />
           </div>
           <div className="card-text">
-            <h4>Master</h4>
+            <h4>Hallita</h4>
             <p>
-              We strive for perfection in every job we do. Based on 10 years of
-              experience, both regular and new customers trust the surroundings
-              of their homes every year.
+              Pyrimme täydellisyyteen jokaisessa työssämme. Perustuu 10 vuoteen
+              kokemus, niin tavalliset kuin uudet asiakkaat luottavat
+              ympäristöön kodeistaan joka vuosi.
             </p>
           </div>
         </div>
