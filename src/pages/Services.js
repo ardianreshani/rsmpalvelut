@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { images } from "../data/Image";
 import { SRLWrapper } from "simple-react-lightbox";
-
+import Footer from "../components/Footer";
 const options = {
   caption: {
     showCaption: false,
@@ -19,10 +19,10 @@ const Services = () => {
     <div>
       <div className="button-wraper">
         <button
-          className={`${tag === "all" ? "btn-active" : ""}`}
-          onClick={() => setTag("all")}
+          className={`${tag === "jasht" ? "btn-active" : ""}`}
+          onClick={() => setTag("jasht")}
         >
-          Kaikki
+          Työn ulkopuolella
         </button>
         <button
           className={`${tag === "brenda" ? "btn-active" : ""}`}
@@ -31,10 +31,10 @@ const Services = () => {
           Työn sisällä
         </button>
         <button
-          className={`${tag === "jasht" ? "btn-active" : ""}`}
-          onClick={() => setTag("jasht")}
+          className={`${tag === "kulma" ? "btn-active" : ""}`}
+          onClick={() => setTag("kulma")}
         >
-          Työn ulkopuolella
+          Kattotyöt
         </button>
       </div>
 
@@ -49,6 +49,7 @@ const Services = () => {
           ))}
         </div>
       </SRLWrapper>
+      <Footer />
     </div>
   );
 };

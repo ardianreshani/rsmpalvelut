@@ -1,6 +1,7 @@
 .whyus {
   margin-top: 3rem;
   padding: 1.5rem 0rem;
+  max-width: 1400px;
 }
 .cards {
   display: flex;
@@ -42,13 +43,4 @@
   font-size: clamp(1.5rem, 2vw, 2.5rem);
   font-weight: 500;
   position: relative;
-}
-.center::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 35%;
-  width: 30%;
-  height: 50%;
-  border-bottom: 3px solid var(--primary-color);
 }

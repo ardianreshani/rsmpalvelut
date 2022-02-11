@@ -1,6 +1,6 @@
 .home-service {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
+  max-width: 1400px;
+  margin: 3rem auto 1rem;
 }
 .grid {
   margin: 3rem 1rem 2rem 1rem;
@@ -103,5 +103,16 @@
     width: 21px;
     height: 21px;
     margin-left: 0.7rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  .a,
+  .c,
+  .d {
+    height: 350px;
   }
 }

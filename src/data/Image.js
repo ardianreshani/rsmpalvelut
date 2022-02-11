@@ -40,11 +40,6 @@ export const images = [
     tag: "brenda",
   },
   {
-    id: "9",
-    imageName: "jasht1.jpg",
-    tag: "jasht",
-  },
-  {
     id: "10",
     imageName: "jasht2.jpg",
     tag: "jasht",
@@ -93,5 +88,25 @@ export const images = [
     id: "19",
     imageName: "jasht11.jpg",
     tag: "jasht",
+  },
+  {
+    id: "20",
+    imageName: "kulma.png",
+    tag: "kulma",
+  },
+  {
+    id: "21",
+    imageName: "kulma 2.jpg",
+    tag: "kulma",
+  },
+  {
+    id: "22",
+    imageName: "kulma 3.jpg",
+    tag: "kulma",
+  },
+  {
+    id: "23",
+    imageName: "kulma 4.jpg",
+    tag: "kulma",
   },
 ];
